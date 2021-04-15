@@ -1,0 +1,17 @@
+{
+  "name": "nice-schedule",
+  "version": "1.0.0",
+  "description": "nice and useful schedule component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "schedule",
+    "css",
+    "react",
+    "ui"
+  ],
+  "author": "Lorena Rojas <lorenajrc@gmail.com>",
+  "license": "ISC"
+}
