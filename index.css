@@ -41,7 +41,7 @@
     display: grid;
     grid-template-columns: [six] 1fr [six-thirty] 1fr [seven] 1fr [seven-thirty] 1fr [eight] 1fr [eight-thirty] 1fr
     [nine] 1fr [nine-thirty] 1fr [ten] 1fr [ten-thirty] 1fr [eleven] 1fr [eleven-thirty] 1fr [twelve] 1fr;
-    grid-template-rows: repeat(17, 2rem);
+    grid-template-rows: repeat(10, 4rem);
     position: absolute;
     top: 2rem;
     left: 1.5rem;
@@ -109,16 +109,35 @@
 
 .container__schedule--item{
     width: 100%;
-    border-radius: 1rem;
-    background: #126e82;
+    border-radius: 2rem;
+    background: #60A7B9;
     margin: 0.1rem 0;
     grid-column-gap: 0.5rem;
+}
+
+.item-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 .item1{
     grid-column: six / seven ;
     grid-row-start: 1;
-  
+}
+.item-img{
+    background: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+    object-fit: cover;
+}
+.item-details{
+    width: 50%;
+    height: auto;
+    color:white;
+    font-size: .9rem;
 }
 
 .item2{
