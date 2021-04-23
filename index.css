@@ -96,8 +96,8 @@
 .wrap--rows{
     display: grid;
     grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(13,1fr);
-    margin: 0 1.5rem;
+    grid-template-columns: repeat(14,1fr);
+    
 }
 
 .container__schedule--row{
@@ -173,6 +173,7 @@
         width:75vw;
         height: 72vh;
         right: -0.5rem;
+         
     }
     .container__schedule--column{
         height: 72vh;
@@ -187,5 +188,12 @@
         grid-template-rows: repeat(13,1fr);
         margin: 1rem -0.1rem;
         height: 100%;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+    .item-img{
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }  
